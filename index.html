@@ -1,2 +1,67 @@
-<h1>This is my homepage</h1>
-<body>My link-in-bio</body>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Xinwen Huang's link</title>
+  <style>
+    *{
+      border: 1px red dashed
+    }
+    html {
+      min-height: 100%;
+    }
+    body {
+      min-height: 100%;
+      color: rgb(127, 72, 10);
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, #96745d, #b38863, #c99e70, #dcb580, #eacb95, #f5dfad, #fcf0c9, #fffbe9); /* made at https://learnui.design/tools/gradient-generator.html */
+    }
+    a {
+      color: rgb(193, 103, 0);
+    }
+    /* .item {
+      background-color: rgba(255, 167, 5, 0.523);
+    } */
+    .avatar-image{
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+    .thumbnail{
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    
+    <div class="image-row">
+      <img class="avatar-image" src="/image/photo2.webp" alt="Xinwen Huang Headshot">
+    </div>
+
+    <div class="name-row">Xinwen Huang</div>
+
+    <div class="social-icons-row">
+      <a href="https://www.linkedin.com/in/xinwen-huang-uchicago-data-consulting/" target="_blank">Linkedin</a>
+      <a href="https://github.com/Hxw-w" target="_blank">GitHub</a>
+    </div>
+
+    <div class="links-row">
+      <div class="item">Love to watch
+        <img class="thumbnail" src="/thumbnail/the_morden_family.png" alt="The Morden Family Picture">
+        <a href="https://www.imdb.com/title/tt1442437/" target="_blank">The Morden Family</a>
+      </div>
+      <div class="item">Love to watch
+        <img class="thumbnail" src="/thumbnail/the_big_bang.png" alt="The Big Bang Theory Picture">
+        <a href="https://www.imdb.com/title/tt0898266/" target="_blank">The Big Bang Theory</a>
+      </div>
+  
+    </div><!--links-row-->
+  </div><!--main-container-->
+</body>
+</html>
