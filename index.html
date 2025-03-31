@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Xinwen Huang's link</title>
   <style>
     *{
@@ -35,6 +36,32 @@
       object-fit: cover;
       border-radius: 48px;
     }
+    .main-container{
+      max-width: 640px;
+      margin: auto;
+    }
+    .image-row{
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .name-row{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .social-icons-row{
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .item{
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .link-text{
+      text-align: center;
+      flex-grow: 1;
+    }
   </style>
 </head>
 <body>
@@ -54,11 +81,11 @@
     <div class="links-row">
       <div class="item">Love to watch
         <img class="thumbnail" src="/thumbnail/the_morden_family.png" alt="The Morden Family Picture">
-        <a href="https://www.imdb.com/title/tt1442437/" target="_blank">The Morden Family</a>
+        <a class="link-text" href="https://www.imdb.com/title/tt1442437/" target="_blank">The Morden Family</a>
       </div>
       <div class="item">Love to watch
         <img class="thumbnail" src="/thumbnail/the_big_bang.png" alt="The Big Bang Theory Picture">
-        <a href="https://www.imdb.com/title/tt0898266/" target="_blank">The Big Bang Theory</a>
+        <a class="link-text" href="https://www.imdb.com/title/tt0898266/" target="_blank">The Big Bang Theory</a>
       </div>
   
     </div><!--links-row-->
