@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
   <title>Xinwen Huang's link</title>
   <style>
-    *{
+    /* *{
       border: 1px red dashed
-    }
+    } */
     html {
       min-height: 100%;
     }
@@ -17,9 +19,13 @@
       padding-top: 40px;
       padding-bottom: 40px;
       background: linear-gradient(180deg, #96745d, #b38863, #c99e70, #dcb580, #eacb95, #f5dfad, #fcf0c9, #fffbe9); /* made at https://learnui.design/tools/gradient-generator.html */
+      /* font-family: 'Courier New', Courier, monospace; */
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 16px;
     }
     a {
       color: rgb(193, 103, 0);
+      text-decoration: none;
     }
     /* .item {
       background-color: rgba(255, 167, 5, 0.523);
@@ -40,6 +46,11 @@
       max-width: 640px;
       margin: auto;
     }
+    .name-row{
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      font-weight: 900;
+    }
     .image-row{
       margin-bottom: 20px;
       text-align: center;
@@ -54,9 +65,14 @@
       justify-content: space-around;
     }
     .item{
+      background-color: bisque;
       margin-bottom: 20px;
       display: flex;
       align-items: center;
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right: 100px;
+      box-shadow: 4px 4px 10px 0px #ffd284;
     }
     .link-text{
       text-align: center;
@@ -74,8 +90,12 @@
     <div class="name-row">Xinwen Huang</div>
 
     <div class="social-icons-row">
-      <a href="https://www.linkedin.com/in/xinwen-huang-uchicago-data-consulting/" target="_blank">Linkedin</a>
-      <a href="https://github.com/Hxw-w" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/xinwen-huang-uchicago-data-consulting/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Hxw-w" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
     </div>
 
     <div class="links-row">
